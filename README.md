@@ -1,4 +1,4 @@
-#US Polls 2016
+#US Polls 2016 analysis with R
 
 This is an effort to analyze US presidential election 2016.
 There are 3 R scripts. sentiment.R is to do the sentiment analysis , predictive modelling and finding the accuracy . 
