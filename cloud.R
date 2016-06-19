@@ -9,10 +9,10 @@ library(tm)
 
 #Steps to be followed for twitter authentication
 #the keys need to be changed as this data is confidential
-consumer_key <- '8dL1NHlMxboC3QtVg2mf1ZBfz'
-consumer_secret <- 'KEkd0NbvpEajXweZdCngu6fsZnUIfMhJHGmpqWBlrIjAh63tYm'
-access_token <- '723771874551844865-pOVvNbBQ6ulZ9Q1Uu4H16E234YPEowO'
-access_secret <- 'HEkGSMBmMyCQDXjYT3i047Az2r29QpGfK2eWRSd9pnz8c'
+consumer_key <- '**************'
+consumer_secret <- '**************************************'
+access_token <- '***************************************'
+access_secret <- '*************************************'
 setup_twitter_oauth(consumer_key , consumer_secret, access_token, access_secret)
 
 #Cleaning the text (pre-processing steps)
@@ -75,7 +75,7 @@ tweet_num = length(tweet_clean)
 tweet_df = data.frame(text=tweet_clean, sentiment=rep("", tweet_num),stringsAsFactors=FALSE)
 
 
-db_key= "3d0bdb887ce24c3829e1b86b4bf5cc2e" #key to access datumbox api, this needs to be changed
+db_key= "**********************" #key to access datumbox api, this needs to be changed
 
 sentiment = rep(0, tweet_num)
 for (i in 1:tweet_num)
