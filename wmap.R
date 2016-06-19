@@ -9,10 +9,10 @@ library(ggmap)
 
 #Steps to be followed for twitter authentication
 #the keys need to be changed as this data is confidential
-consumer_key <- '8dL1NHlMxboC3QtVg2mf1ZBfz' 
-consumer_secret <- 'KEkd0NbvpEajXweZdCngu6fsZnUIfMhJHGmpqWBlrIjAh63tYm'
-access_token <- '723771874551844865-pOVvNbBQ6ulZ9Q1Uu4H16E234YPEowO'
-access_secret <- 'HEkGSMBmMyCQDXjYT3i047Az2r29QpGfK2eWRSd9pnz8c'
+consumer_key <- '*****************' 
+consumer_secret <- '*******************'
+access_token <- '*********************************'
+access_secret <- '***********************************'
 setup_twitter_oauth(consumer_key , consumer_secret, access_token, access_secret)
 
 
