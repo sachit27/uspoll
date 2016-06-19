@@ -1,4 +1,6 @@
-# this is an effort to analyze US presidential election 2016.
+#US Polls 2016
+
+This is an effort to analyze US presidential election 2016.
 There are 3 R scripts. sentiment.R is to do the sentiment analysis , predictive modelling and finding the accuracy . 
 cloud.R is to generate the word cloud for the presidential candidates with sentiment percentage.
 wmap.R is to to the geolocation analysis of tweets from users all over the world. It plots the locations of users on the world map.
